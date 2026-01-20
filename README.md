@@ -1,17 +1,2 @@
 Readme
-SmartSparing
-SmartSparing er en full stack applikasjon som lar brukere registrere hvor mye de sparer når de kjøper varer på tilbud. Brukeren kan knytte sparingen til et sparemål, som for eksempel en ferietur eller en ny PlayStation. Appen viser total spart sum, hvor mye som gjenstår før målet er nådd, og lar brukeren dele progresjonen sin med venner.
-Hovedfunksjoner
-•	Opprette og administrere sparemål
-•	Registrere sparinger (pris før / pris etter → spart beløp)
-•	Automatisk oppdatering av progresjon
-•	Dashboard med total oversikt
-•	Deling av progresjon
-•	Offline støtte (PWA)
-Teknologi
-•	Client: HTML/CSS/JavaScript (eller React hvis ønskelig)
-•	Server: Node.js + Express
-•	Database: PostgreSQL (cloud: Supabase / Neon / Railway)
-•	API: REST-ish
-•	PWA: Service workers + manifest
-•	Autentisering: JWT eller sessions
+SmartSparing er en full-stack app der brukere kan registrere hvor mye penger de sparer når de kjøper varer på tilbud. Brukeren legger inn varenavn, ordinær pris og tilbudspris, og appen beregner automatisk hvor mye som er spart. Brukeren kan opprette sparemål og knytte sparingene sine til et mål for å se samlet fremgang og hvor mye som gjenstår før målet er nådd. Brukeren kan endre og slette både sparemål og registrerte sparinger. Appen har brukerkontoer, og data lagres i en sky-basert PostgreSQL-database via en REST-lignende API. Brukeren kan dele et sparemål med andre via en delingslenke (read-only).
